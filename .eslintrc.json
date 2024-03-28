@@ -1,0 +1,9 @@
+{
+  "extends": ["eslint:recommended", "next", "next/core-web-vitals"],
+  "plugins": ["@next/next"],
+  "settings": {
+    "react": {
+      "version": "18.2.0"
+    }
+  }
+}

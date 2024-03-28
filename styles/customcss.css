@@ -1,0 +1,138 @@
+.header {
+  border: 0px solid black;
+  border-radius: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.card {
+  border-radius: 25px;
+  border: 1px solid #999999;
+}
+
+.card-title {
+  font-size: 1em;
+  color: gray;
+  margin: 0px;
+}
+
+.card-body {
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+
+.divisor {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: black;
+  height: 1px;
+}
+
+h5 {
+  font-size: 1.6em;
+  color: white;
+  margin: 0px;
+}
+
+.text-start {
+  text-align: start;
+  color: white;
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+.text-end {
+  text-align: end;
+  color: white;
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+.text-center-top {
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  font-weight: 300;
+  padding-top: 0rem;
+  padding-bottom: 1.5rem;
+}
+
+.text-center-top-h5 {
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 300;
+  padding-bottom: 2rem;
+}
+
+.text-center-top2 {
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding-bottom: 0rem;
+}
+
+.dropdown-toggle {
+  color: #fcfc03;
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+.table-text {
+  color: white;
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+td {
+  color: #fcfc03;
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+/* body .border-primary {
+  border-color: #fcfc03;
+  font-size: 1rem;
+  font-weight: 200;
+} */
+
+body .border-primary {
+  border-color: #fcfc03 !important;
+  /* font-size: 1rem !important;
+  font-weight: 200 !important; */
+}
+
+#menu {
+  border-color: #fcfc03 !important;
+  /* font-size: 1rem;
+  font-weight: 200; */
+}
+
+.btn-primary {
+  background-color: #fcfc03 !important;
+  border-color: #fcfc03 !important;
+  color: black !important;
+  /* font-size: 1rem;
+  font-weight: 200; */
+}
+
+.btn-bottom {
+  background-color: #fcfc03 !important;
+  border-color: #fcfc03 !important;
+  text-align: center;
+  color: black !important;
+  /* font-size: 1rem;
+  font-weight: 200; */
+}
+
+.center-container {
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+  height: 100%; /* Ensure the container takes up the full height */
+  font-size: large;
+  text-transform: uppercase;
+
+  padding: 1rem 2rem;
+}
