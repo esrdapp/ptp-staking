@@ -131,12 +131,12 @@ const IndexPage = () => {
         <div className="w-100 divisor"></div>
         <h1 className="text-center-top">$PTP LP STAKING</h1>
         <p className="text-center-top2">
-          $PTP LP STAKING allows you to stake your $PTP LP tokens to earn more
-          $PTP
+          $PTP LP STAKING allows you to stake your V2 LP tokens (PulseX V2) to
+          earn more $PTP rewards
         </p>
         <p className="text-center-top2">
-          LP tokens are obtained from liquidity on the PulseX $PTP Liquidity
-          Pool
+          The PulseX V2 LP token address for the $PTP/PLS pair is:
+          0xb8efccb3fa5d4bc68524989173dc603e1acc0362
         </p>
       </Center>
       <Center>

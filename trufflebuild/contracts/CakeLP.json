@@ -9226,21 +9226,11 @@
   "ast": {
     "absolutePath": "project:/contracts/CakeLPToken.sol",
     "exportedSymbols": {
-      "CakeLP": [
-        969
-      ],
-      "Context": [
-        3044
-      ],
-      "ERC20": [
-        2911
-      ],
-      "IERC20": [
-        2989
-      ],
-      "IERC20Metadata": [
-        3014
-      ]
+      "CakeLP": [969],
+      "Context": [3044],
+      "ERC20": [2911],
+      "IERC20": [2989],
+      "IERC20Metadata": [3014]
     },
     "id": 970,
     "license": "MIT",
@@ -9248,12 +9238,7 @@
     "nodes": [
       {
         "id": 945,
-        "literals": [
-          "solidity",
-          "^",
-          "0.8",
-          ".0"
-        ],
+        "literals": ["solidity", "^", "0.8", ".0"],
         "nodeType": "PragmaDirective",
         "src": "159:23:2"
       },
@@ -9289,13 +9274,7 @@
         "contractKind": "contract",
         "fullyImplemented": true,
         "id": 969,
-        "linearizedBaseContracts": [
-          969,
-          2911,
-          3014,
-          2989,
-          3044
-        ],
+        "linearizedBaseContracts": [969, 2911, 3014, 2989, 3044],
         "name": "CakeLP",
         "nameLocation": "266:6:2",
         "nodeType": "ContractDefinition",
@@ -9583,7 +9562,7 @@
       "events": {},
       "links": {},
       "address": "0xb8efccb3fa5d4bc68524989173dc603e1acc0362",
-      "transactionHash": "0x5132aca6f95fa3228b3579b11320f62860bd404c9fbec3e0846868d5d2acae39"
+      "transactionHash": "0xdef43b1f5a22396e90e753034a8356bc0cbc26af11bbb376d09ccc1584a2d25d"
     },
     "5777": {
       "events": {

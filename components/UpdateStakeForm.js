@@ -256,7 +256,7 @@ export default class UpdateStakeForm extends React.Component {
                 title="balance not staked"
                 onChange={(e) => this.updateAmount(e)}
               />
-              <InputGroup.Text> Thruster-LP </InputGroup.Text>
+              <InputGroup.Text> PulseX-LP </InputGroup.Text>
             </InputGroup>
           </Form.Group>
 

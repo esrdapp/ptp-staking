@@ -130,7 +130,7 @@ export default class StakeView extends React.Component {
 
         <Center maxWidth="500">
           <TitleValueBox
-            title="Remaining LP Balance available to stake"
+            title="LP Balance in wallet"
             value={lpUnstaked}
             symbol="PulseX-LP"
           />
