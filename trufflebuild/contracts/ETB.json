@@ -9226,21 +9226,11 @@
   "ast": {
     "absolutePath": "project:/contracts/ETBToken.sol",
     "exportedSymbols": {
-      "Context": [
-        3044
-      ],
-      "ERC20": [
-        2911
-      ],
-      "ETB": [
-        995
-      ],
-      "IERC20": [
-        2989
-      ],
-      "IERC20Metadata": [
-        3014
-      ]
+      "Context": [3044],
+      "ERC20": [2911],
+      "ETB": [995],
+      "IERC20": [2989],
+      "IERC20Metadata": [3014]
     },
     "id": 996,
     "license": "MIT",
@@ -9248,12 +9238,7 @@
     "nodes": [
       {
         "id": 971,
-        "literals": [
-          "solidity",
-          "^",
-          "0.8",
-          ".0"
-        ],
+        "literals": ["solidity", "^", "0.8", ".0"],
         "nodeType": "PragmaDirective",
         "src": "209:23:3"
       },
@@ -9289,13 +9274,7 @@
         "contractKind": "contract",
         "fullyImplemented": true,
         "id": 995,
-        "linearizedBaseContracts": [
-          995,
-          2911,
-          3014,
-          2989,
-          3044
-        ],
+        "linearizedBaseContracts": [995, 2911, 3014, 2989, 3044],
         "name": "ETB",
         "nameLocation": "316:3:3",
         "nodeType": "ContractDefinition",
@@ -9579,7 +9558,7 @@
     "version": "0.8.4+commit.c7e474f2.Emscripten.clang"
   },
   "networks": {
-    "81457": {
+    "369": {
       "events": {},
       "links": {},
       "address": "0x890F93a482e263A48448298F37Eb82DfE599AcF5",
