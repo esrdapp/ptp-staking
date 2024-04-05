@@ -1,3 +1,9 @@
+html,
+body {
+  overflow: scroll;
+  height: 100%; /* Or min-height: 100%; */
+}
+
 .header {
   border: 0px solid black;
   border-radius: 0px;
@@ -135,4 +141,89 @@ body .border-primary {
   text-transform: uppercase;
 
   padding: 1rem 2rem;
+}
+
+/* Mobile devices (phones) */
+@media (max-width: 600px) {
+  .card {
+    border-radius: 15px; /* Slightly smaller radius for smaller screens */
+  }
+
+  .card-title,
+  .text-start,
+  .text-end,
+  .dropdown-toggle,
+  .table-text,
+  td {
+    font-size: 0.9rem; /* Slightly smaller font size for readability */
+  }
+
+  h5,
+  .text-center-top {
+    font-size: 1.4rem; /* Larger heading for mobile visibility */
+  }
+
+  .text-center-top-h5,
+  .text-center-top2 {
+    font-size: 0.8rem; /* Adjusted for better readability on small screens */
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .center-container {
+    padding: 1rem; /* Reduce padding to utilize space */
+    flex-direction: column; /* Stack items vertically for better use of space */
+  }
+
+  .btn-primary,
+  .btn-bottom {
+    padding: 0.5rem 1rem; /* Adjust button padding for smaller screens */
+    font-size: 0.8rem; /* Adjust font size for buttons */
+  }
+
+  .divisor {
+    margin-top: 10px; /* Reduce margin for compactness */
+    margin-bottom: 10px;
+  }
+}
+
+/* Tablets */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .card {
+    border-radius: 20px; /* Adjust for tablets */
+  }
+
+  .card-title,
+  .text-start,
+  .text-end,
+  .dropdown-toggle,
+  .table-text,
+  td {
+    font-size: 0.95rem; /* Slightly larger than mobile but smaller than desktop */
+  }
+
+  h5,
+  .text-center-top {
+    font-size: 2.8rem; /* Adjust heading sizes for better visibility */
+  }
+
+  .text-center-top-h5,
+  .text-center-top2 {
+    font-size: 1.3rem; /* Better readability on medium screens */
+  }
+
+  .center-container {
+    padding: 1rem 1.5rem; /* Adjust padding for medium screens */
+  }
+
+  .btn-primary,
+  .btn-bottom {
+    padding: 0.75rem 1.5rem; /* Adjust button size for medium screens */
+    font-size: 0.9rem;
+  }
+
+  .divisor {
+    margin-top: 15px; /* Adjust margin for visual spacing */
+    margin-bottom: 15px;
+  }
 }

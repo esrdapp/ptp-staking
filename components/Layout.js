@@ -102,7 +102,6 @@ export const Page = ({ children }) => (
         font-style: normal;
         position: relative;
         min-height: 100vh; /* Set a minimum height to allow scrolling */
-        overflow: hidden;
       }
       main {
         padding-top: 20px;
