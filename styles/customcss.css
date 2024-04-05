@@ -179,6 +179,7 @@ body .border-primary {
   .btn-bottom {
     padding: 0.5rem 1rem; /* Adjust button padding for smaller screens */
     font-size: 0.8rem; /* Adjust font size for buttons */
+    width: 100% !important;
   }
 
   .divisor {

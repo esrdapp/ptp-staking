@@ -23,7 +23,8 @@ export default ({ onClose, children }) => (
         left: 50%;
         top: 50%;
         transform: translateX(-50%) translateY(-50%);
-        width: 538px;
+        width: 90%; /* Make width responsive */
+        max-width: 538px; /* Ensure it doesn't get too wide on larger screens */
         background-color: white;
         box-shadow: 0 1px 27px 0 rgba(0, 0, 0, 0.19);
         border-radius: 3px;
@@ -33,6 +34,14 @@ export default ({ onClose, children }) => (
       .modal :global(h3) {
         text-align: center;
         margin: 10px 0;
+      }
+
+      /* Adjustments for smaller devices */
+      @media (max-width: 600px) {
+        .form-modal {
+          width: 85%; /* Increase width percentage for very small devices */
+          padding: 10px; /* Optionally adjust padding */
+        }
       }
     `}</style>
   </div>
