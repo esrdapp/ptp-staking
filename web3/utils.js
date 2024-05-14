@@ -22,16 +22,26 @@ export const toTokenUnits = async (token, amount) => {
     return units
 }
 
+// // from string to number with 'precision' decimals
+// export const toNumber = async (token, amount, precision) => {
+//     const decimals = await token.decimals.call()
+//     const digits =  myWeb3.utils.toBN('10').pow(decimals); 
+//     const extra =  myWeb3.utils.toBN('10').pow(myWeb3.utils.toBN(precision)); 
+//     const number = myWeb3.utils.toBN(amount).mul(extra).div(digits).toNumber()
+//     const decimal = number / extra.toNumber()
+    
+//     return decimal
+// }
+
 // from string to number with 'precision' decimals
 export const toNumber = async (token, amount, precision) => {
-    const decimals = await token.decimals.call()
-    const digits =  myWeb3.utils.toBN('10').pow(decimals); 
-    const extra =  myWeb3.utils.toBN('10').pow(myWeb3.utils.toBN(precision)); 
-    const number = myWeb3.utils.toBN(amount).mul(extra).div(digits).toNumber()
-    const decimal = number / extra.toNumber()
-    
-    return decimal
-}
+  const decimals = await token.decimals.call();
+  const digits = myWeb3.utils.toBN("10").pow(decimals);
+  const unitsString = myWeb3.utils.toBN(amount).div(digits).toString();
+  const units = parseInt(unitsString);
+
+  return units;
+};
 
 export const shortenAccount = (account) => {
     return account.substring(0, 6) + "..." + account.substring(38)
